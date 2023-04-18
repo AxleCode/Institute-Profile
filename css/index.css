@@ -52,6 +52,21 @@ nav ul li a.active {
 }
 
 
+@media only screen and (max-width: 1156px) {
+  nav {
+    height: auto;
+    padding: 20px;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .img-logo{
+    margin-left: 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   nav {
     height: auto;
@@ -86,6 +101,11 @@ nav ul li a.active {
   object-fit: cover;
 }
 
+@media only screen and (max-width: 1156px) {
+  .welcome-container {
+    margin: 0px 0 0 20px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .welcome-container {
     margin: 0px 0 0 20px;
@@ -135,6 +155,18 @@ h1{
 .desc-small{
   text-align: center;
 }
+@media screen and (max-width: 1156px) {
+  .img-product {
+    display: block;
+    margin: 10px 0px 0 0px;
+    padding: 0;
+  }
+
+  .img-product > * {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .img-product {
     display: block;
@@ -183,6 +215,14 @@ text-align: center;
   text-align: center;
 }
 }
+@media screen and (max-width: 1156px) {
+  .about-container{
+    margin: 50px 20px 50px 20px;
+    font-weight: lighter;
+    line-height: 1.5;
+    text-align: center;
+  }
+  }
 
 /*Vision & Mission*/
 .vision-container{
@@ -200,6 +240,12 @@ line-height: 1.5;
 font-weight: 800;
 line-height: 1.5;
 }
+@media screen and (max-width: 1156px) {
+  .vision-container{
+    margin: 30px 20px 50px 40px;
+   
+  }
+  }
 @media screen and (max-width: 1100px) {
 .vision-container{
   margin: 30px 20px 50px 40px;
@@ -212,6 +258,7 @@ line-height: 1.5;
  
 }
 }
+
 
 /*Message Us*/
   .container {
@@ -310,6 +357,30 @@ line-height: 1.5;
   
   
   @media screen and (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+    label {
+      margin-bottom: 5px;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    .submit-button{
+      width: 65%;
+      margin-left: 100px;
+    }
+    .container-message{
+      margin-left: 0%;
+      
+    }
+    .value-message{
+      margin: 20px 0px 20px 30px;
+      width: 100%;
+    }
+
+  }
+
+  @media screen and (max-width: 1156px) {
     .grid {
       grid-template-columns: 1fr;
     }
