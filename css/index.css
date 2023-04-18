@@ -86,7 +86,11 @@ nav ul li a.active {
   object-fit: cover;
 }
 
-
+@media only screen and (max-width: 768px) {
+  .welcome-container {
+    margin: 0px 0 0 20px;
+  }
+}
 
 /* Product */
 h1{
@@ -132,7 +136,7 @@ h1{
 @media screen and (max-width: 768px) {
   .img-product {
     display: block;
-    margin: 0;
+    margin: 10px 0px 0 0px;
     padding: 0;
   }
 
@@ -145,6 +149,11 @@ h1{
 @media screen and (max-width: 480px) {
   .img-product {
     width: 50%;
+  }
+  .img-product {
+    display: block;
+    margin: 10px 0px 0 115px;
+    padding: 0;
   }
 }
 
@@ -317,7 +326,7 @@ line-height: 1.5;
     }
     .value-message{
       margin: 20px 0px 20px 30px;
-      width: 88%;
+      width: 100%;
     }
 
   }
