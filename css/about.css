@@ -1,0 +1,135 @@
+/* BAGIAN CSS INDEX */
+*{
+    padding:0;
+    margin:0;
+    font-family: 'MS Sans Serif';
+  }
+  .img-logo{
+    width: 180px;
+    height: 50px;
+    margin-left: 100px;
+  }
+  nav {
+    background-color: #ed1e28;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .paragraph-about{
+    font-family: 'Montserrat';
+    line-height: 2;
+    font-size: 17px;
+  }
+  .contain-head{
+    height: 300px;
+    background-color: #373737;
+    background-image: url(/images/Media\,730141\,en.jpg);
+    filter: grayscale(30%);
+  }
+  .h1-head{
+    margin-top: 10px;
+    margin-left: 180px;
+    color: #fff;
+    font-size: 38px;
+    font-weight: bold;
+  }
+  .p-head{
+    margin-top: 25x;
+    margin-left: 180px;
+    color: #fff;
+    font-size: 24px;
+ 
+  }
+  .img-head{
+    width: auto;
+    margin-left: 220px;
+    margin-top: 30px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .container-about {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .text-grid{
+    margin: 50px 130px 30px 130px;
+  }
+  .img-grid img{
+    margin-top: 50px;
+    width: 81%;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0 100px;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    color: #2200ff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    nav {
+      height: auto;
+      padding: 20px;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+    nav ul li {
+      margin: 10px 0;
+    }
+    .img-logo{
+      margin-left: 10px;
+    }
+    .text-grid{
+      margin: 10px 10px 0px 10px;
+    }
+    .img-grid img{
+      margin-top: 10px;
+      width: 100%;
+    }
+    .img-head{
+      margin: 20px 0 10px 30px;
+    }
+    .p-head{
+      margin: 10px 0 10px 30px;
+    }
+    .h1-head{
+      margin: 10px 0 10px 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    nav ul li {
+      margin: 5px 0;
+    }
+  }
+  
+  
+
+  /*Footer*/
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: right;
+    font-size: 14px;
+  }
+
+  /* Style for links in the footer */
+  footer a {
+    color: #000;
+    text-decoration: none;
+  }
