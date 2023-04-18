@@ -234,7 +234,7 @@ line-height: 1.5;
   }
   form {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
   }
   
   label {
@@ -252,8 +252,8 @@ line-height: 1.5;
     grid-column: 1 / span 2;
   }
   .submit-button{
-    width: 53%;
-    margin-left: 345px;
+    width: 100%;
+    margin: 10px 0 0 120px;
   }
   .container-message{
     margin: 30px 90px 50px 80px;
@@ -319,8 +319,8 @@ line-height: 1.5;
       margin-left: 10px;
     }
     .submit-button{
-      width: 53%;
-      margin-left: 10px;
+      width: 65%;
+      margin-left: 100px;
     }
     .container-message{
       margin-left: 0%;
