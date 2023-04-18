@@ -104,7 +104,7 @@ h1{
 
 .product-container {
   width: 100%;
-  max-width: 1200px;
+
 }
 
 .img-product {
@@ -113,6 +113,8 @@ h1{
   grid-template-columns: repeat(5, 1fr);
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
 .img-product div {
